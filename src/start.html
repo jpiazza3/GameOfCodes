@@ -1,0 +1,78 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Snake - Start Screen</title>
+    </head>
+    <style>
+        .block {
+            display: block;
+            width: 100%;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+
+        }
+
+        .block:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #txtbox {
+            font-size:14pt;
+            height:40px;
+            width:100px;
+        }
+
+        #txtbox:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <body>
+        <h1 align="center">Game of Codes Presents:</h1>
+        <h1 align="center">Snake MMO</h1>
+        <h3 align="center">By: Justin Piazza (Front-End), Cole Burniston (Server), and Christian Scholl (Back-End)</h3>
+
+        <br>
+        <br>
+        <br>
+
+        <h3 align="center"><u>Rules of the Game:</u></h3>
+        <h3 align="center">1). Enter a Username, then press submit to pair up with a snake</h3>
+        <h3 align="center">2). Click "Start Game"</h3>
+        <h3 align="center">3). Once you are in the game, you will have 10 seconds to get ready before the game starts</h3>
+        <h3 align="center">4). When the timer reaches 1:00, you will compete against other players to collect as many dots as possible</h3>
+        <h3 align="center">5). When the timer reaches 0:00, the game has ended</h3>
+
+        <br>
+        <br>
+        <br>
+
+        <form align="center" action="">
+            <font size="5px">Username: </font><input type="text" name="user" size="35"><br>
+            <br>
+            <input align="center" type="submit" value="Submit" id="txtbox">
+        </form>
+
+        <br>
+        <br>
+        <button onclick="location.href='index.html'" class="block">Start Game!</button>
+
+        <br>
+        <br>
+        <br>
+
+        <img src="images/snake.jpg" alt="Snake.io logo" width="200" height="200" class="center">
+    </body>
+</html>
